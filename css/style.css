@@ -6,17 +6,8 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 150px;
   background-color: #f5f5f5;
 }
-
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -24,7 +15,7 @@ body {
 
 .container {
   width: auto;
-  padding: 0;
+  padding: 0px;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -48,5 +39,40 @@ body {
   position: fixed;
   transform: translateY(0px);
   transition: 200ms background-color,200ms color;
+}
+
+div #main-message {
+  background-color: #545454;
+  padding: 60px;
+  min-height: 550px;
+  color: #fafafa;
+  font-size: 46px;
+  text-align: center;
+  width: auto;
+}
+
+div #hubs {
+  min-height: 550px;
+  color: #151515;
+  text-align: center;
+  background-color: #fff;
+  font-size: 24px;
+}
+
+.hub h2 {
+  font-size: 46px;
+}
+
+.hub {
+  border-right: 1px solid red;
+}
+
+.hub:last-child {
+  border-right: none;
+}
+
+.footer {
+  height: 260px;
+  padding: 50px;
 }
 
